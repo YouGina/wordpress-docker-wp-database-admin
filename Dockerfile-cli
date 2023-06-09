@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 php:8-cli-alpine
+FROM --platform=linux/amd64 php:5.6-cli-alpine
 
 RUN apk add --no-cache curl
 RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
